@@ -20,7 +20,7 @@ public final class MainActivity extends AppCompatActivity {
         this.setContentView(R.layout.activity_main);
 
         // Bluetooth Button
-        Button bluetooth_Button = (Button)this.findViewById(R.id.button);
+        Button bluetooth_Button = (Button)this.findViewById(R.id.button_Bluetooth);
         bluetooth_Button.setOnClickListener((View.OnClickListener)(new View.OnClickListener() {
             public final void onClick(View it) {
                 Intent Intent = new Intent((Context)MainActivity.this, BluetoothActivity.class);
@@ -29,7 +29,7 @@ public final class MainActivity extends AppCompatActivity {
         }));
 
         // Help Button
-        Button help_Button = (Button)this.findViewById(R.id.button4);
+        Button help_Button = (Button)this.findViewById(R.id.button_Help);
         help_Button.setOnClickListener((View.OnClickListener)(new View.OnClickListener() {
             public final void onClick(View it) {
                 Intent Intent = new Intent((Context)MainActivity.this, HelpActivity.class);
@@ -38,7 +38,7 @@ public final class MainActivity extends AppCompatActivity {
         }));
 
         // Setting Button
-        Button setting_Button = (Button)this.findViewById(R.id.button5);
+        Button setting_Button = (Button)this.findViewById(R.id.button_Settings);
         setting_Button.setOnClickListener((View.OnClickListener)(new View.OnClickListener() {
             public final void onClick(View it) {
                 Intent Intent = new Intent((Context)MainActivity.this, SettingActivity.class);

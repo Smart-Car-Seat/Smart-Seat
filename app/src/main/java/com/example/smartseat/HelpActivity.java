@@ -7,8 +7,6 @@ import android.view.View;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.smartseat.MainActivity;
-import kotlin.Metadata;
 import org.jetbrains.annotations.Nullable;
 
 public final class HelpActivity extends AppCompatActivity {

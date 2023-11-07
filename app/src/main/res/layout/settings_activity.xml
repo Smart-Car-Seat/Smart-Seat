@@ -7,7 +7,7 @@
 
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/button_HomePage"
         android:layout_width="372dp"
         android:layout_height="70dp"
         android:layout_marginStart="19dp"

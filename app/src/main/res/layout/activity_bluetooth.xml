@@ -44,7 +44,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/button_BTConnect"
             android:layout_width="match_parent"
             android:layout_height="79dp"
             android:backgroundTint="#DAAD28"
@@ -54,7 +54,7 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/button_HomePageBT"
             android:layout_width="match_parent"
             android:layout_height="79dp"
             android:backgroundTint="#DAAD28"

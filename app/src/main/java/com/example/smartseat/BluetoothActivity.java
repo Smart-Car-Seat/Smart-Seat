@@ -16,7 +16,7 @@ public final class BluetoothActivity extends AppCompatActivity {
         this.setContentView(R.layout.activity_bluetooth);
 
 
-        Button homePage_Button = (Button)this.findViewById(R.id.button2);
+        Button homePage_Button = (Button)this.findViewById(R.id.button_HomePageBT);
         homePage_Button.setOnClickListener((View.OnClickListener)(new View.OnClickListener() {
             public final void onClick(View it) {
                 Intent Intent = new Intent((Context)BluetoothActivity.this, MainActivity.class);

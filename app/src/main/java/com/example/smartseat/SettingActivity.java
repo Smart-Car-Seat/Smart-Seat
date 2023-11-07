@@ -27,7 +27,7 @@ public class SettingActivity extends AppCompatActivity {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
 
-        Button homePage_Button = (Button)this.findViewById(R.id.button10);
+        Button homePage_Button = (Button)this.findViewById(R.id.button_HomePage);
         homePage_Button.setOnClickListener((View.OnClickListener)(new View.OnClickListener() {
             public final void onClick(View it) {
                 Intent Intent = new Intent((Context)SettingActivity.this, MainActivity.class);
